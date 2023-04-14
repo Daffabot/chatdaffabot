@@ -1,0 +1,16 @@
+current directory: /home/runner/Jekyll/.bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/nix/store/yfmnyvd0asw5bs24lg611xn2gi4prqla-ruby-2.7.4/bin/ruby -I /nix/store/yfmnyvd0asw5bs24lg611xn2gi4prqla-ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20220618-462-8bd23k.rb extconf.rb
+creating Makefile
+
+current directory: /home/runner/Jekyll/.bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= clean
+
+current directory: /home/runner/Jekyll/.bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\=
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.so
+
+current directory: /home/runner/Jekyll/.bundle/ruby/2.7.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= install
+/nix/store/1570w56jrkvr90w9x158vyb5vahnk18v-coreutils-8.32/bin/install -c -m 0755 fastfilereaderext.so ./.gem.20220618-462-1wws4oa

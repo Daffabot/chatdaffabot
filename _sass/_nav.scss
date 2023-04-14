@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  /* background: #1b1d25; */
+  padding-top: 1em;
+  padding-bottom: 1em;
+  flex-wrap:wrap;
+}
+header a {
+  border: none;
+  padding:10px;
+  border-radius:5px;
+  display:block;
+}
+
+header a:hover, a:focus {
+  background: #f1f3f5; 
+}
+
+.brand a {
+  color: #343a40;
+  display: flex;
+  align-items: center;
+}
+.brand a span {
+  padding-left: 10px;
+}
+.brand img {
+  width: 60px;
+}
+
+
+nav {
+  display:flex;
+  align-items: center;
+}

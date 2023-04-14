@@ -1,0 +1,44 @@
+// Pagination
+//
+// Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+// there are no more previous or next posts to show.
+
+.pagination {
+  color: #7a7a7a;
+//   color: var(--gray-500);
+  margin-top: 1rem;
+//   margin: 0 -1.5rem var(--spacer);
+}
+
+.pagination-item {
+  background: #f1f4f8;
+  display: block;
+  margin-bottom: 15px;
+  padding: 15px;
+  border-radius: 5px;
+//   padding: var(--spacer);
+//   border: solid var(--border-color);
+}
+
+// Only provide a hover state for linked pagination items
+a.pagination-item:hover {
+  background-color: #e1e6ed;
+//   background-color: var(--border-color);
+}
+
+@media (min-width: 30em) {
+  .pagination {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pagination-item:first-child {
+    margin-right: 10px;
+    flex: 1;
+    text-align: right;
+  }
+  .pagination-item:last-child {
+    margin-left: 10px;
+    flex: 1;
+  }
+}
+

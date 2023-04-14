@@ -1,0 +1,16 @@
+run = "bundle install && bundle exec jekyll serve --host=0.0.0.0"
+
+entrypoint = "index.html"
+
+[packager]
+language = "ruby"
+
+[packager.features]
+packageSearch = true
+guessImports = true
+
+[languages.ruby]
+pattern = "**/*.rb"
+
+[languages.ruby.languageServer]
+start = ["solargraph", "stdio"]

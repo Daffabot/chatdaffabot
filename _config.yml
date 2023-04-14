@@ -1,0 +1,36 @@
+# Setup
+title: Chat Daffabot
+tagline: Chatbot Message Jekyll
+url: https://www.daffabot.my.id/chatdaffabot
+paginate: 3
+baseurl: ""
+permalink: pretty
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Specify the author for blog posts
+author: Daffabot
+url: https:https://www.daffabot.my.id
+
+# Custom vars
+version: 3.0.0

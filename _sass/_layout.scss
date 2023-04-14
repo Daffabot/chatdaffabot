@@ -1,0 +1,88 @@
+// Layout
+//
+// Styles for managing the structural hierarchy of the site.
+
+header, main, footer {
+  padding-left:1.5em;
+  padding-right:1.5em;
+}
+
+@media (min-width: 48em) {
+  header, main, footer {
+    padding-left:4em;
+    padding-right:4em;
+  }
+}
+
+@media (min-width: 64em) {
+  header, main, footer {
+    padding-left:8%;
+    padding-right:8%;
+  }
+}
+
+/* For wide screen  */
+@media (min-width: 100em) {
+  header, footer, main {
+    padding-left:18%;
+    padding-right:18%;
+  }
+}
+
+/* Sidebar layout */
+
+.columns {
+  display:flex;
+  flex-wrap: wrap;
+}
+@media (min-width: 48em) {
+  .columns {
+    flex-wrap: nowrap;
+  }
+  .aside {
+    width: 300px;
+    padding-left: 2em;
+  }
+}
+
+/* End of sidebar layout */
+
+/* Single column with 900px maximum width layout */
+.blog-post {
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.related {
+  max-width: 760px;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* End of single column with 900px maximum width layout */
+
+footer {
+  text-align: center;
+  padding-bottom:2em;
+  font-size: 0.8em;
+}
+
+footer > *{
+padding-top:1em; 
+}
+
+footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+footer nav a {
+  border:none;
+  color: #495057;
+  padding: 10px;
+  border-radius:5px;
+}
+
+footer nav a:hover {
+  background:#f1f4f8;
+}
