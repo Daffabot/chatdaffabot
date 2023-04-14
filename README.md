@@ -1,2 +1,2 @@
 # chatdaffabot
-Chatbot node js
+Chatbot jekyll
