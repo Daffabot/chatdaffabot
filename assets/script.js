@@ -213,7 +213,6 @@ setTimeout(function() {
         document.getElementById("chatbot").innerHTML = product;
     }, 500);
     speak(product);
-    document.getElementById("input").value = ""; //clear input value
     console.log(product);
   }
   function compare(arr, array, string) {
@@ -246,6 +245,12 @@ setTimeout(function() {
             utterance.voice = window.speechSynthesis.getVoices()[i];
           }
         }
+
+        speechSynthesis.speak(utterance);
+        utterance.addEventListener("end", (e) => {
+          console.log("Utterance has finished being spoken after " + e.elapsedTime + " milliseconds.");
+          document.getElementById("input").value = ""; //clear input value
+        });
         clearInterval(voiceGetter);
       }
     }, 200);
