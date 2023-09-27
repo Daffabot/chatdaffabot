@@ -94,9 +94,8 @@ body, .bg {
     padding: 2px 2px 2px 2px;
     align-items: center;
     justify-content: center;
-    border: 2px solid #8a7149;
     border-radius: 25px;
-    background-color: #e7d7be;
+    background-color: #CCECF8;
     background-image: url(../image/send.png);
     background-position: 12px 12px;
     background-repeat: no-repeat;
@@ -105,7 +104,7 @@ body, .bg {
   
   .chat-submit:hover {
     cursor: pointer;
-    background-color: #ffbd80;
+    background-color: #5eccf5;
   }
   
   .chat-submit:focus {
@@ -119,10 +118,10 @@ body, .bg {
     font-size: 20px;
     font-weight: 20;
     color: #313133;
-    background-color: #e7d7be;
+    background-color: #CCECF8;
     border: none;
     border-radius: 1000px;
-    box-shadow: 12px 12px 24px rgba(209, 179, 79, 0.64);
+    box-shadow: 12px 12px 24px rgba(161, 224, 224, 0.64);
     transition: all 0.3s ease-in-out 0s;
     cursor: pointer;
     outline: none;
@@ -136,8 +135,8 @@ body, .bg {
     border-radius: 1000px;
     min-width: calc(50px + 6px);
     min-height: calc(50px + 6px);
-    border: 6px solid rgb(209, 174, 79);
-    box-shadow: 0 0 60px rgba(255, 166, 0, 0.64);
+    border: 6px solid rgb(79, 183, 209);
+    box-shadow: 0 0 60px rgba(0, 225, 255, 0.64);
     position: relative;
     transform: translate(-33%, -27%);
     opacity: 1;
